@@ -2,7 +2,7 @@
 
 Prerequsite: the phone data files need to be in the directory "UCI HAR Dataset" in the current working directory
 
-The run_analysis script reads in the activity labels from the file "activity_labels.txt" and gives proper column names
+The run_analysis script reads in the activity labels from the file "activity_labels.txt" and gives proper column names \n
 As a second step the script reads in the list of data features from the file "features.txt"
 Next the script reads in the test data set and assigns proper column names
 after that the program reads in the training data set and assigns proper column names
