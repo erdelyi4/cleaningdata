@@ -1,13 +1,13 @@
 # cleaningdata
 
-#Prerequsite: the phone data files need to be in the directory "UCI HAR Dataset" in the current working directory
+##Prerequsite: the phone data files need to be in the directory "UCI HAR Dataset" in the current working directory
 
-#The run_analysis script reads in the activity labels from the file "activity_labels.txt" and gives proper column names
-#As a second step the script reads in the list of data features from the file "features.txt"
-#Next the script reads in the test data set and assigns proper column names
-after that the program reads in the training data set and assigns proper column names
-#Then we assign the proper activity name to activity index and put together the phone data with the activities and subjects
-#As next step the script assigns the proper activity name to activity index and put together the phone data with the activities and subjects
+###The run_analysis script reads in the activity labels from the file "activity_labels.txt" and gives proper column names
+###As a second step the script reads in the list of data features from the file "features.txt"
+###Next the script reads in the test data set and assigns proper column names
+###after that the program reads in the training data set and assigns proper column names
+###Then we assign the proper activity name to activity index and put together the phone data with the activities and subjects
+###As next step the script assigns the proper activity name to activity index and put together the phone data with the activities and subjects
 
 Then we simply put the two part data sets (train,test) together
 
