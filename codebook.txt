@@ -1,0 +1,71 @@
+"Subject": [1...30] - the index of the subject who was observed
+"Activity": [WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING] - the name of the activity that was observed
+
+For deeper understanding of the following variables please refer to the "features_info.txt" in the original data set
+
+"tBodyAcc.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAcc.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAcc.mean...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAcc.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAcc.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAcc.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tGravityAcc.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tGravityAcc.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tGravityAcc.mean...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tGravityAcc.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tGravityAcc.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tGravityAcc.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccJerk.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccJerk.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccJerk.mean...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccJerk.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccJerk.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccJerk.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyro.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyro.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyro.mean...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyro.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyro.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyro.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroJerk.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroJerk.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroJerk.mean...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroJerk.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroJerk.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroJerk.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tGravityAccMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tGravityAccMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccJerkMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyAccJerkMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroJerkMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"tBodyGyroJerkMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAcc.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAcc.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAcc.mean...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAcc.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAcc.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAcc.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAccJerk.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAccJerk.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAccJerk.mean...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAccJerk.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAccJerk.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAccJerk.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyGyro.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyGyro.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyGyro.mean...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyGyro.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyGyro.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyGyro.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAccMag.mean.."
+"fBodyAccMag.std.."
+"fBodyBodyAccJerkMag.mean.."
+"fBodyBodyAccJerkMag.std.."
+"fBodyBodyGyroMag.mean.."
+"fBodyBodyGyroMag.std.."
+"fBodyBodyGyroJerkMag.mean.."
+"fBodyBodyGyroJerkMag.std.."
