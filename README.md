@@ -1,29 +1,15 @@
 # cleaningdata
 
+Prerequsite: the phone data files need to be in the directory "UCI HAR Dataset" in the current working directory
 
-## read in the activity labels and give proper column names
+The run_analysis script reads in the activity labels from the file "activity_labels.txt" and gives proper column names
+As a second step the script reads in the list of data features from the file "features.txt"
+Next the script reads in the test data set and assigns proper column names
+after that the program reads in the training data set and assigns proper column names
+Then we assign the proper activity name to activity index and put together the phone data with the activities and subjects
+As next step the script assigns the proper activity name to activity index and put together the phone data with the activities and subjects
 
-
-## read in the list of data features
-
-
-## read in the test data set and assign proper column names
-
-
-## read in the training data set and assign proper column names
-
-
-## assign the proper activity name to activity index
-
-## put together the phone data with the activities and subjects
-
-
-## assign the proper activity name to activity index
-
-## put together the phone data with the activities and subjects
-
-
-## simply put the two part data sets (train,test) together
+Then we simply put the two part data sets (train,test) together
 
 
 ## find the columns that represent either a calculated mean or standard 
@@ -44,4 +30,4 @@ file.remove("tidy_data.txt")
 ## the result data is written in a tab separated text file sorted by the subject
 ## index, only the necessary columns are written in the file, column 3,4 do not
 ## carry any additional info
-write.table(arrange(result_data[c(1,2,5:ncol(result_data))],Subject),"tidy_data.txt",sep="\t",row.names=FALSE)
+
