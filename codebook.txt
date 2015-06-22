@@ -2,6 +2,7 @@
 "Activity": [WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING] - the name of the activity that was observed
 
 For deeper understanding of the following variables please refer to the "features_info.txt" in the original data set
+In this data set the average values of the original data unique to a test person and his activities are presented
 
 "tBodyAcc.mean...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
 "tBodyAcc.mean...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
@@ -61,11 +62,11 @@ For deeper understanding of the following variables please refer to the "feature
 "fBodyGyro.std...X" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
 "fBodyGyro.std...Y" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
 "fBodyGyro.std...Z" [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
-"fBodyAccMag.mean.."
-"fBodyAccMag.std.."
-"fBodyBodyAccJerkMag.mean.."
-"fBodyBodyAccJerkMag.std.."
-"fBodyBodyGyroMag.mean.."
-"fBodyBodyGyroMag.std.."
-"fBodyBodyGyroJerkMag.mean.."
-"fBodyBodyGyroJerkMag.std.."
+"fBodyAccMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyAccMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyBodyAccJerkMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyBodyAccJerkMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyBodyGyroMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyBodyGyroMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyBodyGyroJerkMag.mean.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
+"fBodyBodyGyroJerkMag.std.." [float] - mean value of all the measurement corresponding to a uniqe activity of a subject
